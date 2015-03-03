@@ -42,6 +42,7 @@ install ruby-build
 install vim
 install wget
 install zsh
+install fig
 
 # Below applications were installed by Cask,
 # but don't not have corresponding casks.
@@ -52,6 +53,10 @@ cask alfred link
 cask install boot2docker
 cask install firefox-ja
 cask install google-chrome
+cask install karabiner
+cask install seil
+cask install virtualbox
+cask install google-japanese-ime
 
 # App Store applications
 appstore Keynote
