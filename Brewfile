@@ -43,6 +43,9 @@ install vim
 install wget
 install zsh
 install fig
+install mysql
+# xsl to csv
+install unoconv
 
 # Below applications were installed by Cask,
 # but don't not have corresponding casks.
@@ -57,6 +60,8 @@ cask install karabiner
 cask install seil
 cask install virtualbox
 cask install google-japanese-ime
+cask install vagrant
+cask install wkhtmltopdf
 
 # App Store applications
 appstore Keynote
