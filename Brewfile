@@ -45,7 +45,9 @@ install zsh
 install fig
 install mysql
 # xsl to csv
+cask install libreoffice
 install unoconv
+install imagemagick
 
 # Below applications were installed by Cask,
 # but don't not have corresponding casks.
