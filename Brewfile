@@ -47,7 +47,8 @@ install mysql
 # xsl to csv
 cask install libreoffice
 install unoconv
-install imagemagick
+#brew link xz libtool jpeg libpng freetype
+install imagemagick --with-libtiff --with-ghostscript
 
 # Below applications were installed by Cask,
 # but don't not have corresponding casks.
@@ -64,6 +65,7 @@ cask install virtualbox
 cask install google-japanese-ime
 cask install vagrant
 cask install wkhtmltopdf
+cask install android-studio-bundle
 
 # App Store applications
 appstore Keynote
